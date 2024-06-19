@@ -1,0 +1,17 @@
+import Portrait from '../../../assets/images/Portrait.jpg'
+import './index.scss'
+
+const Logo = () => {
+
+  return (
+    <div className="logo-container" >
+      <img
+        className="solid-logo"
+        src={Portrait}
+        alt="Portrait"
+      />
+    </div>
+  )
+}
+
+export default Logo
